@@ -8,6 +8,8 @@ tags:
   - Selenium
   - TestNG
   - Java
+author_profile: true
+classes: wide
 ---
 How to build automation framework by Selenium TestNG Java from scratch, for beginner.
 
