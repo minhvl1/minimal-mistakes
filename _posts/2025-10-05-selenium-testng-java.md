@@ -1,9 +1,7 @@
 ---
-title: "Build Framework Selenium TestNG Java from Scratch"
+title: "Build Framework Selenium TestNG Java from Scratch (Part 1)"
 categories:
   - Selenium
-  - TestNG
-  - Java
 tags:
   - Selenium
   - TestNG
@@ -11,14 +9,19 @@ tags:
 author_profile: true
 classes: wide
 ---
-How to build automation framework by Selenium TestNG Java from scratch, for beginner.
+Series: How to build automation framework by Selenium TestNG Java from scratch, for beginner.
+This section will guide you on how to create a Selenium project with Java and base functions, and how to run test cases using Maven.
+
 
 ### Prerequisite
-* Java latest: 24
-* Selenium latest
-* TestNG latest
-* Allure report
-* Log4j2
+* Skills
+  * Coding basic java
+  * Get web element locator by xpath/css selector
+* Dependencies:
+  * Java latest
+  * Selenium latest
+  * TestNG latest
+  * Maven latest
 
 
 ### Reference: [Git](https://gitlab.com/testertop_lession/k2_automation/-/tree/main?ref_type=heads)
