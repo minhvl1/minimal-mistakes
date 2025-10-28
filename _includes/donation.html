@@ -1,0 +1,42 @@
+{% assign show_donation = page.show_donation | default: true %}
+{% if site.donation.enabled and show_donation %}
+<div class="donation-section">
+  <div class="donation-container">
+    <h3 class="donation-title">
+      <i class="fas fa-heart"></i> {{ site.donation.title | default: "Support My Work" }}
+    </h3>
+    
+    {% if site.donation.message %}
+    <p class="donation-message">{{ site.donation.message }}</p>
+    {% endif %}
+    
+    <div class="donation-content">
+      {% if site.donation.qr_code %}
+      <div class="donation-qr">
+        <img src="{{ site.donation.qr_code | relative_url }}" alt="QR Code Donate" class="qr-image">
+        {% if site.donation.bank_info %}
+        <div class="bank-info">
+          <p><strong>{{ site.donation.bank_info.bank_name }}</strong></p>
+          <p>{{ site.donation.bank_info.account_number }}</p>
+          <p>{{ site.donation.bank_info.account_name }}</p>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+      
+      {% if site.donation.buy_me_coffee %}
+      <div class="donation-coffee">
+        <a href="{{ site.donation.buy_me_coffee }}" target="_blank" class="btn btn--primary btn--large">
+          <i class="fas fa-coffee"></i> Buy me a coffee
+        </a>
+      </div>
+      {% endif %}
+    </div>
+    
+    {% if site.donation.note %}
+    <p class="donation-note">{{ site.donation.note }}</p>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
