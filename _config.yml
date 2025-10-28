@@ -111,6 +111,18 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+donation:
+  enabled: true
+  title: "☕ Support the author"
+  message: "If you found this helpful, feel free to treat me to a cup of coffee.! 😊"
+  qr_code: "/assets/images/qr-bank.png"
+#  bank_info:
+#    bank_name: "BIDV"  # Tên ngân hàng của bạn
+#    account_number: "4411193323"  # Số tài khoản của bạn
+#    account_name: "VU LE MINH"  # Tên chủ tài khoản
+#  buy_me_coffee: "https://www.buymeacoffee.com/yourname"  # (Tùy chọn) Link Buy Me a Coffee
+  note: "Thank you very much! 💖"
+
 # Site Author
 author:
   name             : "Minh Dawson Vu"
