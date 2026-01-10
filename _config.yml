@@ -112,7 +112,7 @@ analytics:
 
 
 donation:
-  enabled: true
+  enabled: false
   title: "☕ Support the author"
   message: "If you found this helpful, feel free to treat me to a cup of coffee.! 😊"
   qr_code: "/assets/images/qr-bank.png"
