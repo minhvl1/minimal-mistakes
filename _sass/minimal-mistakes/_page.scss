@@ -5,16 +5,13 @@
 #main {
   @include clearfix;
   margin-inline: auto;
-  padding-inline: 1em;
+  padding-inline-start: 1em;
+  padding-inline-end: 3%;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-
-  @include breakpoint($x-large) {
-    max-width: $max-width;
-  }
 }
 
 body {
@@ -37,12 +34,12 @@ body {
   @include breakpoint($large) {
     float: inline-end;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
+    padding-inline-end: 3%;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
+    padding-inline-end: 3%;
   }
 
   .page__inner-wrap {
@@ -199,11 +196,8 @@ body {
     }
 
     .wrapper {
-      padding-inline: 1em;
-
-      @include breakpoint($x-large) {
-        max-width: $x-large;
-      }
+      padding-inline-start: 1em;
+      padding-inline-end: 3%;
     }
 
     .page__title,
