@@ -8,11 +8,9 @@ author_profile: true
 # VU LE MINH
 **Senior Automation Test Engineer | SDET Lead**
 
-**Phone:** 0812476463 | **Email:** minhvu890yahoo@gmail.com
+**Phone/zalo:** 0812476463 | **Email:** minhvu890yahoo@gmail.com
 
-**Location:** Thanh Xuân, Hà Nội
-
-**Portfolio:** dawsonvu.com | **GitHub:** github.com/minhvl1
+**Location:** Ha Noi
 
 *"Work smarter...not harder"*
 
@@ -56,7 +54,7 @@ Strategic Senior Automation Test Engineer with extensive experience architecting
 - **Stakeholder Engagement:** Provided direct technical consultancy to international customers to define automation roadmaps and quality gates.
 - **Efficiency Optimization:** Built and maintained high-speed frameworks using Serenity and Robot Framework, achieving significant improvements in execution performance.
 
-### CMC Global | QA Lead (Singapore Projects)
+### CMC Global | QA Lead
 
 - **Team Management:** Lead a large-scale QA organization of 15 members on high-profile Singaporean government and commercial projects.
 - **Mobile & API Leadership:** Managed the delivery of automated scripts for the SuperApp (Malaysia) using Appium, Selenium, and Rest-Assured.
@@ -67,6 +65,7 @@ Strategic Senior Automation Test Engineer with extensive experience architecting
 
 ## PROJECT MILESTONES
 
+- **Mobile App(Android/Ios):** Built framework from scratch Appium with java, setup cloud device to run pipeline  
 - **SuperApp (E-wallet):** Integrated k6 with Grafana and Prometheus to build a real-time performance monitoring dashboard for a secure homegrown lifestyle app.
 - **Odoo Ecommerce (Singapore):** Engineered a Cypress framework with GitLab CI and AWS S3 integration to automate cross-border trading and shipping logic.
 - **Automotive Systems:** Validated complex head-unit systems for Toyota and Honda, testing Bluetooth, Apple CarPlay, and Android Auto sensor integrations.
