@@ -13,7 +13,7 @@ classes: wide
 
 Trong kỷ nguyên AI, việc học tập trở nên nhanh chóng hơn bao giờ hết. Tuy nhiên, một bóng ma vẫn luôn ám ảnh người dùng: **AI Hallucination (Ảo giác AI)**. Đã bao giờ bạn tự hỏi: "Liệu thông tin này có thật không, hay con bot này đang bịa ra cho vui?"
 
-NotebookLM của Google xuất hiện như một "vị cứu tinh" để giải quyết chính xác tình trạng "nói có sách, mách có chứng" này.
+[NotebookLM](https://notebooklm.google.com/) của Google xuất hiện như một "vị cứu tinh" để giải quyết chính xác tình trạng "nói có sách, mách có chứng" này.
 
 ### Vấn đề: Khi AI "chém gió" quá đà
 Các mô hình ngôn ngữ lớn (LLM) như ChatGPT hay Claude được huấn luyện trên toàn bộ Internet. Điều này giúp chúng thông minh nhưng cũng khiến chúng dễ dàng trộn lẫn kiến thức đúng với các thông tin sai lệch, tạo nên những câu trả lời nghe rất thuyết phục nhưng thực tế là... không có thật.
@@ -50,13 +50,24 @@ Khác với các chatbot thông thường, **NotebookLM** là một trợ lý ng
 
     - Sử dụng tool: https://download-directory.github.io/
     - Paste link [github](https://github.com/microsoft/playwright/tree/main/docs/src) rồi tải về
+      <img width="1259" height="843" alt="image" src="https://github.com/user-attachments/assets/6e3dc071-9083-4280-9e6b-561129fd2791" />
+
     - Tạo file md mới, copy tất cả file md đã tải về vào file md mới 
-    - Ví dụ câu lệnh trên macos: ```cat *.md > combine_docs_playwright.md```
-    - Import md file vào notebook 
+    - Ví dụ câu lệnh trên macos: ```cat *.md > tat_ca_docs_playwright.md```
+     <img width="1659" height="280" alt="image" src="https://github.com/user-attachments/assets/43718d36-8c89-48cf-8527-7432b3baae6e" />
+
+    - Tạo ghi chú mới
+      <img width="1549" height="738" alt="image" src="https://github.com/user-attachments/assets/b809339f-c730-4c9a-aed2-c124a56286d7" />
+
+    - Thêm nguồn -> chọn md file ```tat_ca_docs_playwright.md```
+      <img width="781" height="554" alt="image" src="https://github.com/user-attachments/assets/64c1274e-0e9f-425b-8f80-02edc1f71702" />
 
 #### 2. Đặt câu hỏi cho NotebookLM
-> **Câu hỏi:** "[Ví dụ: Làm thế nào để cấu hình DriverManager trong framework này?]"
+> **Câu hỏi:** "[Ví dụ: hướng dẫn setup playwright + java + testng]"
 
+<img width="867" height="705" alt="image" src="https://github.com/user-attachments/assets/5123f1bf-b760-4cc3-a158-487dea048715" />
+
+<img width="843" height="632" alt="image" src="https://github.com/user-attachments/assets/d8b56aa5-2966-4aee-b190-612e4fc1fa28" />
 
 
 ### Cách ứng dụng hiệu quả cho người học
