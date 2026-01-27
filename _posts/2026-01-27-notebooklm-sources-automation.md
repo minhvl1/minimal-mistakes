@@ -1,5 +1,6 @@
 ---
 title: "NotebookLM Sources Collection"
+excerpt: "A comprehensive collection of quality data sources for NotebookLM"
 categories:
   - AI
   - Automation
@@ -51,7 +52,7 @@ classes: wide
 
 This article compiles quality data sources to feed NotebookLM, helping you learn and research more effectively.
 
-Besides the Official Documentation links, I have compiled and edited Markdown (`.md`) files based on the official documents to optimize them for import into NotebookLM. If you find any omissions or errors during use, don't hesitate to contact me to improve them together!
+Besides the Official Documentation links, I have compiled and edited Markdown (`.md`) files based on the official documents to optimize them for import into NotebookLM. If you find any omissions or errors during use, don't hesitate to [contact me](/feedback/) to improve them together!
 
 ---
 
@@ -97,9 +98,7 @@ For a detailed guide on how to use NotebookLM effectively and avoid "AI Hallucin
 - 📝 **MD File:** [playwright_notebookLM.md](/assets/files/source_notebook/playwright/playwright_notebookLM.md){:target="_blank" download="playwright_notebookLM.md" class="download-confirm"}
 
 ---
-
-
-*Topics are always updated. If you find anything missing, please contact me.*
+*Have feedback or suggestions? [Let me know](/feedback/).*
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {

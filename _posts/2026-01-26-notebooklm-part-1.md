@@ -98,3 +98,9 @@ NotebookLM không phải là một công cụ để bạn "hỏi mọi thứ tr�
 
 **Sắp tới (Part 2):**
 Đừng bỏ lỡ phần tiếp theo, chúng ta sẽ nâng cấp quy trình làm việc lên một tầm cao mới: **Tích hợp Notebook MCP (Model Context Protocol) + AI Agent** để tự động hóa việc đọc và phân tích tài liệu một cách thông minh hơn nữa!
+
+---
+
+*Have feedback or suggestions? [Let me know](/feedback/).*
+
+---

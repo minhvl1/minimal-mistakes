@@ -270,3 +270,9 @@ public class SwagLabTestCase extends BaseTest {
 
 }
 ```
+
+---
+
+*Have feedback or suggestions? [Let me know](/feedback/).*
+
+---
