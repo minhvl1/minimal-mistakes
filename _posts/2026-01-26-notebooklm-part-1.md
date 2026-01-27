@@ -73,8 +73,14 @@ Khác với các chatbot thông thường, **NotebookLM** là một trợ lý ng
 
 <img width="843" height="632" alt="image" src="https://github.com/user-attachments/assets/d8b56aa5-2966-4aee-b190-612e4fc1fa28" loading="lazy" decoding="async" class="align-center" />
 
+#### Mở rộng: Thêm một số use case thú vị
 
-### Cách ứng dụng hiệu quả cho người học
+##### Automation tester:
+* Bạn muốn học framework mới? Hãy nạp documentation chính thống vào NotebookLM. Ví dụ: học Selenium bằng [documentation chính thức](https://github.com/SeleniumHQ/seleniumhq.github.io/tree/trunk/website_and_docs) thay vì phải lục lọi hàng trăm trang web.
+
+##### Manual Tester:
+* **Generate Test Cases tự động:** Feed cho NotebookLM các tài liệu requirement, design (export ra PDF hoặc MD file), meeting notes... và để AI giúp bạn tạo test cases một cách có hệ thống.
+* **Phân biệt Bug vs Feature:** Gặp một case phân vân không biết liệu có phải bug không? Hỏi ngay NotebookLM và yêu cầu trích dẫn nguồn từ requirement. Bạn sẽ có bằng chứng rõ ràng để đưa ra quyết định chính xác.
 
 | Đối tượng | Cách sử dụng |
 | :--- | :--- |
