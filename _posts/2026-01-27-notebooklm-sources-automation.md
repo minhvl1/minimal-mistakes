@@ -1,5 +1,5 @@
 ---
-title: "Tổng Hợp Source Cho NotebookLM"
+title: "NotebookLM Sources Collection"
 categories:
   - AI
   - Automation
@@ -48,19 +48,31 @@ classes: wide
   ↑
 </button>
 
-Bài viết này tổng hợp các nguồn dữ liệu (sources) chất lượng để feed cho NotebookLM, giúp bạn học và nghiên cứu hiệu quả hơn.
 
-Bên cạnh các link Official Documentation, mình đã tự tổng hợp và biên soạn lại các file Markdown (`.md`) dựa trên tài liệu chính thức để tối ưu cho việc import vào NotebookLM. Nếu trong quá trình sử dụng các bạn thấy có thiếu sót hay sai sót gì, đừng ngần ngại liên hệ với mình để cùng hoàn thiện nhé!
+This article compiles quality data sources to feed NotebookLM, helping you learn and research more effectively.
+
+Besides the Official Documentation links, I have compiled and edited Markdown (`.md`) files based on the official documents to optimize them for import into NotebookLM. If you find any omissions or errors during use, don't hesitate to contact me to improve them together!
 
 ---
 
-## Mục Lục
+## Table of Contents
 
+- [NotebookLM User Guide](#notebooklm-user-guide)
 - [Automation Testing](#automation-testing)
   - [Selenium](#selenium)
   - [Appium](#appium)
   - [Playwright](#playwright)
 
+
+---
+
+---
+
+## NotebookLM User Guide
+
+For a detailed guide on how to use NotebookLM effectively and avoid "AI Hallucinations", check out Part 1:
+
+- 📖 **Guide:** [NotebookLM: Solution for 'AI Hallucination' in Learning]({% post_url 2026-01-26-notebooklm-part-1 %})
 
 ---
 
@@ -87,7 +99,7 @@ Bên cạnh các link Official Documentation, mình đã tự tổng hợp và b
 ---
 
 
-*Các Topics luôn được cập nhật, nếu bạn thấy thiếu gì hãy hãy contact với tôi nhé.*
+*Topics are always updated. If you find anything missing, please contact me.*
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -95,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
   links.forEach(function(link) {
     link.addEventListener("click", function(event) {
       var fileName = this.getAttribute("download");
-      var confirmed = confirm("Bạn có chắc chắn muốn tải file '" + fileName + "' về máy không?");
+      var confirmed = confirm("Are you sure you want to download the file '" + fileName + "'?");
       if (!confirmed) {
         event.preventDefault();
       }

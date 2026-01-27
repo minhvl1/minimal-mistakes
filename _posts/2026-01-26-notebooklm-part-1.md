@@ -82,6 +82,8 @@ Khác với các chatbot thông thường, **NotebookLM** là một trợ lý ng
 * **Generate Test Cases tự động:** Feed cho NotebookLM các tài liệu requirement, design (export ra PDF hoặc MD file), meeting notes... và để AI giúp bạn tạo test cases một cách có hệ thống.
 * **Phân biệt Bug vs Feature:** Gặp một case phân vân không biết liệu có phải bug không? Hỏi ngay NotebookLM và yêu cầu trích dẫn nguồn từ requirement. Bạn sẽ có bằng chứng rõ ràng để đưa ra quyết định chính xác.
 
+*Xem thêm các source khác cho notebookLM [tại đây]({% post_url 2026-01-27-notebooklm-sources-automation %})*
+
 | Đối tượng | Cách sử dụng |
 | :--- | :--- |
 | **Developer** | Đọc hiểu tài liệu kỹ thuật (API Docs, System Design) hoặc tìm hiểu nhanh cấu trúc của một thư viện (Library) mới. |
