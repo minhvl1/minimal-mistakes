@@ -10,10 +10,12 @@ search: false
 
 // Custom avatar style - hình tròn to
 .author__avatar {
+  display: block !important;
   width: 150px !important;
   height: 150px !important;
   
   img {
+    display: block !important;
     width: 150px !important;
     height: 150px !important;
     max-width: 150px !important;
@@ -24,5 +26,14 @@ search: false
     object-fit: cover !important;
     object-position: center 30% !important;
     aspect-ratio: 1 / 1 !important;
+  }
+}
+
+// Override table-cell display at all breakpoints
+@media (min-width: 64em) {
+  .author__avatar {
+    display: block !important;
+    width: 150px !important;
+    height: 150px !important;
   }
 }
