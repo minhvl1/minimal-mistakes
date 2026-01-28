@@ -1,8 +1,3 @@
----
-id: accessibility-testing
-title: "Accessibility testing"
----
-
 ## Introduction
 
 Playwright can be used to test your application for many types of accessibility issues.
